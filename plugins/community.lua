@@ -2,8 +2,8 @@ return {
   "AstroNvim/astrocommunity",
   { import = "astrocommunity.completion.copilot-lua" },
   { -- further customize the options set by the community
-    "copilot.lua",
-    opts = {
+     "copilot.lua",
+     opts = {
       suggestion = {
         keymap = {
           accept = "<C-l>",
@@ -14,6 +14,6 @@ return {
           dismiss = "<C/>",
         },
       },
-    },
+   },
   }
 }
