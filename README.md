@@ -3,6 +3,17 @@
 This repo contains my personal configuration for [AstroNvim](https://github.com/AstroNvim/AstroNvim).
 Please, feel free to use this configuration on your own neovim installation.
 
+## System requirements
+
+You'll need some type of compiler to make everything work as intended. I recommend using Zig on Windows as it's pretty easy to set up.
+For Linux users, installing `build-essential` should be enough!
+
+On Windows, run the following command to install Zig:
+
+```
+winget install Zig.Zig
+```
+
 ## Using this configuration
 
 On Linux based systems use these commands:
