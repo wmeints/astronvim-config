@@ -9,7 +9,8 @@ return {
       "typescript",
       "css",
       "python",
-      "json"
+      "json",
+      "markdown"
     })
 
     opts.auto_install = true
