@@ -30,12 +30,12 @@ want to use the [fuzzy finder](https://astronvim.com/Basic%20Usage/mappings#tele
 
 On Linux based systems use these commands:
 
-- `git clone https://github.com/wmeints/astronvim-configuration ~/.config/nvim/lua/user`
+- `git clone https://github.com/wmeints/astronvim-config ~/.config/nvim/lua/user`
 - `nvim`
 
 On Windows based systems use these commands:
 
-- `git clone https://github.com/wmeints/astronvim-configuration $env:LOCALAPPDATA/nvim/lua/user`
+- `git clone https://github.com/wmeints/astronvim-config $env:LOCALAPPDATA/nvim/lua/user`
 - `nvim`
 
 ## Additional stuff you'll need
@@ -63,7 +63,7 @@ a custom configuration file that pre-installs the following parsers:
 ### Omnisharp configuration
 
 As I sometimes write C# code I want to use the Omnisharp language server. Omnisharp is a great tool, but it
-can be a bit of a pain in the behind to set up. I added additional configuration to fix a crash where you don't get a response back from the LSP.
+can be a bit of a pain in the behind to set up. I added additional configuration to fix a crash where you don't get a response back from the LSP server.
 
 ### REST Client
 
