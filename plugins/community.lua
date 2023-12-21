@@ -1,5 +1,6 @@
 return {
   "AstroNvim/astrocommunity",
+  { import = "astrocommunity.colorscheme.tokyonight-nvim" },
   { import = "astrocommunity.completion.copilot-lua" },
   { -- further customize the options set by the community
      "copilot.lua",
