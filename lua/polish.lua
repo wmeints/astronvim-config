@@ -6,7 +6,7 @@
 vim.opt.scrolloff = 5
 
 -- Improve navigation between panes in vim
-vim.keymap.set("n", "<c-k>", ":wincmd k<CR>")
-vim.keymap.set("n", "<c-j>", ":wincmd j<CR>")
-vim.keymap.set("n", "<c-h>", ":wincmd h<CR>")
-vim.keymap.set("n", "<c-l>", ":wincmd l<CR>")
+vim.keymap.set("n", "<c-h>", ":TmuxNavigateLeft<CR>")
+vim.keymap.set("n", "<c-j>", ":TmuxNavigateDown<CR>")
+vim.keymap.set("n", "<c-k>", ":TmuxNavigateUp<CR>")
+vim.keymap.set("n", "<c-l>", ":TmuxNavigateRight<CR>")
