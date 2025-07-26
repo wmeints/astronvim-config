@@ -7,5 +7,4 @@ return {
   "AstroNvim/astrocommunity",
   { import = "astrocommunity.pack.markdown" },
   { import = "astrocommunity.pack.rust" },
-  { import = "astrocommunity.completion.copilot-lua" },
 }
