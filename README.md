@@ -1,8 +1,9 @@
-# AstroNvim Template
+# Personal Astronvim Configuration
 
 **NOTE:** This is for AstroNvim v5+
 
-A template for getting started with [AstroNvim](https://github.com/AstroNvim/AstroNvim)
+This is my personalized configuration for [AstroNvim](https://github.com/AstroNvim/AstroNvim).
+Follow the instructions in this README file to get it installed.
 
 ## 🛠️ Installation
 
